@@ -1,0 +1,15 @@
+{
+  "name"          : "app-require",
+  "description"   : "Customized require",
+  "keywords"      : ["require"],
+  "author"        : "Nguyen Van Nhu",
+  "contributors"  : [],
+  "dependencies"  : [],
+  "devDependencies": [],
+  "lib"           : "lib",
+  "main"          : "./lib/require.js",
+  "repository"    : {"type": "git", "url": "git://github.com/vanng822/app-require.git"},
+  "scripts": {
+  },
+  "version"       : "0.0.1"
+}
