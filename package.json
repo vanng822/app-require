@@ -11,5 +11,5 @@
   "repository"    : {"type": "git", "url": "git://github.com/vanng822/app-require.git"},
   "scripts": {
   },
-  "version"       : "0.0.1"
+  "version"       : "0.0.2"
 }
