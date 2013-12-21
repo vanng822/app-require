@@ -1,13 +1,8 @@
 var assert = require('assert');
 
 var vows = require('vows');
-var appRequire;
 process.chdir(__dirname + '/app');
-console.log(process.cwd())
-
-appRequire = require('../lib/require.js');
-
-console.log(process.cwd())
+var appRequire = require('../lib/require.js');
 
 vows.describe('Test suite for app require default path').addBatch({
 	'require config' : function() {
