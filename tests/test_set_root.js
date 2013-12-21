@@ -3,7 +3,7 @@ var assert = require('assert');
 var vows = require('vows');
 
 var appRequire = require('../lib/require.js');
-appRequire.setup(__dirname);
+appRequire.setup(__dirname + '/app');
 		
 vows.describe('Test suite for app require set new root').addBatch({
 	'require config' : function() {

@@ -9,7 +9,7 @@
 		"vows": ">=0.7.0"
 	},
 	"scripts": {
-		"test": "vows --spec tests/test_*.js"
+		"test": "make"
 	},
 	"repository": {
 		"type": "git",
