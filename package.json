@@ -1,15 +1,25 @@
 {
-  "name"          : "app-require",
-  "description"   : "Customized require",
-  "keywords"      : ["require"],
-  "author"        : "Nguyen Van Nhu",
-  "contributors"  : [],
-  "dependencies"  : [],
-  "devDependencies": [],
-  "lib"           : "lib",
-  "main"          : "./lib/require.js",
-  "repository"    : {"type": "git", "url": "git://github.com/vanng822/app-require.git"},
-  "scripts": {
-  },
-  "version"       : "0.0.3"
+	"name": "app-require",
+	"description": "Customized require",
+	"keywords": ["require"],
+	"author": "Nguyen Van Nhu",
+	"contributors": [],
+	"main": "./lib/require.js",
+	"devDependencies": {
+		"vows": ">=0.7.0"
+	},
+	"scripts": {
+		"test": "vows --spec tests/test_*.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/vanng822/app-require.git"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/vanng822/app-require/blob/master/LICENSE"
+		}
+	],
+	"version": "0.0.4"
 }
