@@ -23,9 +23,9 @@ customized require for app. For sharing libs and easier to require with long rel
 ## usage
 Idea for application with structure as bellow
 
--approot/
-----server.js
-----/config/
-----/lib/
+-approot/  
+----server.js  
+----/config/  
+----/lib/  
 ....
 
